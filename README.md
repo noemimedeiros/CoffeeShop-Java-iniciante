@@ -1,5 +1,5 @@
 # Coffee Shop
-Programa bem simples de pedir Café em Java, criei com o propósito de ser minha cobaia para experimentar as possibilidades doq posso fazer com a linguagem.
+Programa bem simples de pedir Café em Java, criei com o propósito de ser minha cobaia para experimentar as possibilidades do que posso fazer com a linguagem.
 Nomeei de Coffee Shop, bem clichê. Por enquanto o programa abre uma janela ao ser inicializado dando boas-vindas ao cliente, e em seguida mostra um menu interativo com 4 caixas para selecionar o que você deseja.
  
 ## Mostrando como são as janelas
