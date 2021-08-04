@@ -13,7 +13,6 @@ Nomeei de Coffee Shop, bem clichê. Por enquanto o programa abre uma janela ao s
   <br/>
   <img align="center" height="100" width="110" alt="demonstracao" src="https://cdn.discordapp.com/attachments/872262510701584454/872315374857777212/giphy.gif">
   <br/>
-  <br/>
 </div>
 
     Fonte dos icones: https://www.flaticon.com/br/icone-gratis/cardapio_434374 / https://www.flaticon.com/br/icone-gratis/saco-de-cafe_434358
