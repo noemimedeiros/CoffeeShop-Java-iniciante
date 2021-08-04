@@ -29,7 +29,8 @@ CoffeeShop(){
         //Icones
         ImageIcon sacodecafe = new ImageIcon("https://cdn.discordapp.com/attachments/872262510701584454/872262634479710208/saco-de-cafe.png");
         ImageIcon cardapio = new ImageIcon("https://cdn.discordapp.com/attachments/872262510701584454/872262632365776906/cardapio.png");
-        //Criação das caisas
+        
+        //Criação das caixas
         String[] expresso = {"Mocha", "Cappuccino", "Expresso", "Latte", "Vanilla Latte", "Coado", "Caramel Macchiato"};
         String[] quantexpresso= {"1","2","3","4","5","6","7","8","9","10","11","12"};
         String[] doce ={"Croissant", "Macaron", "Torta de Maçã", "Cheesecake", "Cupcake de Hortelã", "Bolo de Chocolate"};
