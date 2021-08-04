@@ -7,6 +7,7 @@ Nomeei de Coffee Shop, bem clichê. Por enquanto o programa abre uma janela ao s
   <img align="left" height="250" width="220" alt="demonstracao" src="https://media.discordapp.net/attachments/872262510701584454/872311854486134905/unknown.png">
   ← Esse aqui é o menu. Nada muito especial, não é?
   <img align="right" height="140" width="230" alt="demonstracao" src="https://cdn.discordapp.com/attachments/872262510701584454/872317060775039007/unknown.png">
+  
   Por fim, uma janela exibirá as informações do pedido do cliente →
   <br/>
   <br/>
