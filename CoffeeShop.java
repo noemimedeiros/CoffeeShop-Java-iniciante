@@ -1,5 +1,3 @@
-
-
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.*;
@@ -10,6 +8,7 @@ JFrame f;
 
 CoffeeShop(){
 
+        //Criação da janela
         f=new JFrame("𝒞𝑜𝑓𝑓𝑒𝑒 𝒮ℎ𝑜𝑝");
         final JLabel label = new JLabel();
         f.setLocationRelativeTo(null);
@@ -23,15 +22,15 @@ CoffeeShop(){
 
         label.setHorizontalAlignment(JLabel.CENTER);  
         label.setSize(400,100);  
-    
+        //Botão finalizar compra
         JButton b=new JButton("Finalizar Compra");  
         b.setBounds(40,320,260,20);
-
-        ImageIcon sacodecafe = new ImageIcon("C:\\Users\\noemi\\OneDrive\\Documentos\\icone\\saco-de-cafe.png");
-        ImageIcon cardapio = new ImageIcon("C:\\Users\\noemi\\OneDrive\\Documentos\\icone\\cardapio.png");
-    
+        
+        //Icones
+        ImageIcon sacodecafe = new ImageIcon("https://cdn.discordapp.com/attachments/872262510701584454/872262634479710208/saco-de-cafe.png");
+        ImageIcon cardapio = new ImageIcon("https://cdn.discordapp.com/attachments/872262510701584454/872262632365776906/cardapio.png");
+        //Criação das caisas
         String[] expresso = {"Mocha", "Cappuccino", "Expresso", "Latte", "Vanilla Latte", "Coado", "Caramel Macchiato"};
-    
         String[] quantexpresso= {"1","2","3","4","5","6","7","8","9","10","11","12"};
         String[] doce ={"Croissant", "Macaron", "Torta de Maçã", "Cheesecake", "Cupcake de Hortelã", "Bolo de Chocolate"};
         String[] quantdoce= {"1","2","3","4","5","6","7","8","9","10","11","12"};
@@ -40,11 +39,11 @@ CoffeeShop(){
         JComboBox jcd = new JComboBox(doce);
         JComboBox jcq2 = new JComboBox(quantdoce);
     
-        //create a JOptionPane
+        //Criação do JOptionPane
         Object[] options = new Object[]{};
         JOptionPane jop = new JOptionPane("𝐹𝑎ç𝑎 𝑠𝑒𝑢 𝑝𝑒𝑑𝑖𝑑𝑜\n\n",JOptionPane.QUESTION_MESSAGE, JOptionPane.DEFAULT_OPTION, cardapio ,options, null);
     
-        //add combos to JOptionPane
+        //Adicionando as caixas ao JOptionPane
         JLabel expressotext = new JLabel("𝐸𝑥𝑝𝑟𝑒𝑠𝑠𝑜", JLabel.LEADING); //== LEFT);
         jop.add(expressotext);
         jop.add(jce);
@@ -58,7 +57,8 @@ CoffeeShop(){
         jop.add(quanttext2);
         jop.add(jcq2);
         jop.setBounds(40,20,260,220);
-    
+        
+        //Configurando a janela e adicionando o JOptionPane
         f.add(jop);
         f.add(label);
         f.add(b);
@@ -68,7 +68,7 @@ CoffeeShop(){
         f.setSize(360,440);    
         f.setVisible(true);
         
-
+        //Verificação se o botão foi clicado
         b.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent arg0) {
 
@@ -86,7 +86,7 @@ CoffeeShop(){
 
     }
     public static void main(String[] args) {
-        ImageIcon cafeteria = new ImageIcon("C:\\Users\\noemi\\OneDrive\\Documentos\\icone\\cafeteria.png");
+        ImageIcon cafeteria = new ImageIcon("https://cdn.discordapp.com/attachments/872262510701584454/872262630239252480/cafeteria.png");
         JOptionPane.showMessageDialog(null, "𝐵𝑒𝑚-𝑣𝑖𝑛𝑑𝑜 𝑎𝑜 𝒞𝑜𝑓𝑓𝑒𝑒 𝒮ℎ𝑜𝑝", "𝒞𝑜𝑓𝑓𝑒𝑒 𝒮ℎ𝑜𝑝", JOptionPane.INFORMATION_MESSAGE, cafeteria);
         new CoffeeShop();
     }
